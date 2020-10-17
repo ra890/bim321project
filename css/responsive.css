@@ -3,8 +3,20 @@
   and (min-width: 360px) 
   and (max-width: 911px) 
    {
+    #nav ul{
+        padding: 0;
+    }
        #nav ul li{
-	width: 100%;
+    flex: 100%;
+    margin: 0;
+    text-align: center;
+}
+.main-image img{
+    max-width: 300px;
+}
+
+.main-intro h1{
+    font-size: 30px;
 }
 .service-item
 {
