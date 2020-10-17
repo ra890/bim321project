@@ -4,8 +4,7 @@
   and (max-width: 911px) 
    {
        #nav ul li{
-	margin:0 2em;
-	padding: 0 10px;
+	width: 100%;
 }
 .service-item
 {
