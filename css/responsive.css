@@ -3,12 +3,18 @@
   and (min-width: 360px) 
   and (max-width: 911px) 
    {
-
-body{
-    background-color: red;
+.service-item
+{
+    margin: 1em auto ;
+}
+.about-detail{
+    flex:100%;
 }
 }
 
-@media screen and (min-width: 600px) {
-   
+@media (min-width: 1200px) {
+   .main-container{
+    max-width: 1140px;
+    margin: 0 auto;
+   }
   }
